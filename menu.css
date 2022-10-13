@@ -599,14 +599,14 @@ header .menu #menu-texto{
         color: var(--cinza);
         font-size: 1.2rem;
         position: relative;
-        top: 15rem;
+        top: 10rem;
         display:grid;
         text-align: center;
         justify-content: center;
     }
     .menu-link ul{
         position: relative;
-        top: 10rem;
+        top: 7rem;
         display:flex;
         flex-direction: column;
         text-align: center;

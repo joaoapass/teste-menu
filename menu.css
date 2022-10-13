@@ -397,7 +397,7 @@ header .menu #menu-texto{
         animation: none;
     }
     .logo-svg:hover #nome-logo{
-        fill: var(--vermelho);
+        fill: var(--branco);
         animation: NomeLogo 1ms;
     }
     .logoaltera{
@@ -415,7 +415,7 @@ header .menu #menu-texto{
     header .menu{
         z-index: 1;
         height: 3rem;
-        width: 8rem;
+        width: 3rem;
         position: fixed;
         top: 1rem;
         right: 0.5rem;

@@ -7,7 +7,6 @@ function menuShow(){
     let barraAfteranime = document.querySelector('#hamburguer1')
     let barraBeforeanime = document.querySelector('#hamburguer3')
     let menualtera = document.querySelector('#menu-texto')
-    let linklogo = document.querySelector('.logo-svg')
     
     let sair = document.getElementById("menu")
     if(menu.classList.contains('open')){
@@ -20,7 +19,7 @@ function menuShow(){
         barraBeforeanime.classList.remove('BarraBeforeAnimationOpen')
         menualtera.classList.remove('menualtera')
         document.getElementById("menu-texto").innerHTML="MENU"
-        linklogo.classList.remove('open')
+        
     
         sair.classList.remove('acao')
     }
@@ -34,6 +33,7 @@ function menuShow(){
         barraBeforeanime.classList.add('BarraBeforeAnimationOpen')
         menualtera.classList.add('menualtera')
         document.getElementById("menu-texto").innerHTML="SAIR"
+        
 
         sair.classList.add('acao')
     }

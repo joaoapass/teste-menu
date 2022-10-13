@@ -260,10 +260,13 @@ header .menu #menu-texto{
 
     /*Menu escondido*/
 .menu-link{
-    position:fixed;
+    position:absolute;
     display: none;
-    height: 100%;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
     background-color: var(--preto);
 }
 .menu-link a{
@@ -292,14 +295,14 @@ header .menu #menu-texto{
     color: var(--cinza);
     font-size: 1.2rem;
     position: relative;
-    top: 15rem;
+    top: 5rem;
     display:grid;
     text-align: center;
     justify-content: center;
 }
 .menu-link ul{
     position: relative;
-    top: 10rem;
+    top: 0rem;
     display:flex;
     flex-direction: column;
     text-align: center;
@@ -331,7 +334,7 @@ header .menu #menu-texto{
     position: absolute;
 }
 .open{
-    display: block;
+    display: flex;
 }
 
 
@@ -567,10 +570,10 @@ header .menu #menu-texto{
     
         /*Menu escondido*/
     .menu-link{
-        position:fixed;
+        position:absolute;
         display: none;
-        height: 100%;
-        width: 100%;
+        height: 100vh;
+        width: 100vw;
         background-color: var(--preto);
     }
     .menu-link a{
@@ -578,7 +581,7 @@ header .menu #menu-texto{
         font-weight: var(--bold);
         color: var(--branco);
         text-decoration: none;
-        font-size: 2.5rem;
+        font-size: 2rem;
         transition: 0.001s;
     
     }
@@ -599,14 +602,14 @@ header .menu #menu-texto{
         color: var(--cinza);
         font-size: 1.2rem;
         position: relative;
-        top: 10rem;
+        top: 2rem;
         display:grid;
         text-align: center;
         justify-content: center;
     }
     .menu-link ul{
         position: relative;
-        top: 7rem;
+        top: 0rem;
         display:flex;
         flex-direction: column;
         text-align: center;
@@ -637,7 +640,7 @@ header .menu #menu-texto{
         position: absolute;
     }
     .open{
-        display: block;
+        display: flex;
     }
     /*Parte da Responsividade*/
 }
